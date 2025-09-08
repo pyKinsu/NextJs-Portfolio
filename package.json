@@ -1,0 +1,82 @@
+{
+  "name": "nextjs-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A personal portfolio website built with Next.js, TypeScript, Tailwind CSS, and Three.js.",
+  "author": {
+    "name": "Kinsu Rajput",
+    "email": "pykinsu@outlook.com",
+    "url": "https://github.com/pykinsu"
+  },
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pyKinsu/NextJs-Portfolio.git"
+  },
+  "homepage": "https://pykinsu.vercel.app",
+  "bugs": {
+    "url": "https://github.com/pyKinsu/NextJs-Portfolio/issues"
+  },
+  "funding": {
+    "type": "buymeacoffee",
+    "url": "https://www.buymeacoffee.com/pykinsu"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "portfolio",
+    "vercel",
+    "framer-motion",
+    "threejs",
+    "react-three-fiber",
+    "tailwindcss",
+    "animation",
+    "ui",
+    "ux"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@heroicons/react": "^2.1.1",
+    "@react-three/drei": "^9.93.0",
+    "@react-three/fiber": "^8.15.13",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "framer-motion": "^10.17.12",
+    "lucide-react": "^0.471.0",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-intersection-observer": "^9.5.3",
+    "swiper": "^11.1.0",
+    "tailwind-merge": "^2.2.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "^0.160.0",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.15",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.3",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.4.5"
+  }
+}
