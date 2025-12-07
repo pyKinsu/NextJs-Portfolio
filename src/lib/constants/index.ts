@@ -165,13 +165,13 @@ export const projects = [
   {
     title: "ReelSaver – Instagram Reel Downloader & Api",
     
-    image: "/projects/project1.jpg",
+    image: "/projects/project2.jpg",
     link: "https://reelsaver.vercel.app/",
   },
   {
     title: "My Portfolio - HTML & CSS based portfolio ",
 
-    image: "/projects/project2.jpg",
+    image: "/projects/project1.jpg",
     link: "https://kinsu.onrender.com",
   },
   {
